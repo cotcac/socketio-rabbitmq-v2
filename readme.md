@@ -1,13 +1,19 @@
 # run
 
-Terninal 1.
+Terninal 1. Main web server 3000
 ```
 node bin/www
 ```
-Another Terminal
+Terminal 2 Worker
 ```
 node worker.js
 ```
+Terminal 3 Socket 3001
+
+```
+node socket.js
+```
+
 Open broswer
 http://localhost:3000/
 
